@@ -32,11 +32,16 @@ define(TPL_URL, '/' . $this->baseurl . 'templates/' . $this->template);
 
 <table width="1000" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#6C6C6C">
 	<tr>
-		<td width="722" height="101" colspan="2"><img src="<?php echo TPL_URL; ?>/images/topL1.jpg" width="722" height="60"><br><img src="<?php echo TPL_URL; ?>/images/topL2.jpg" width="722" height="41"><br></td>
+		<td width="722" height="101" colspan="2">
+                    <img src="<?php echo TPL_URL; ?>/images/topL1.jpg" width="722" height="60">
+                    <br />
+                    <img src="<?php echo TPL_URL; ?>/images/topL2.jpg" width="722" height="41">
+                    <br />
+                </td>
 		<td width="278" height="101"><img src="<?php echo TPL_URL; ?>/images/topR.jpg" width="278" height="101" border="0" usemap="#map1"><br></td>
 	</tr>
 	<tr>
-		<td width="1000" height="233" colspan="3" style="background: url(<?php echo TPL_URL; ?>/images/flashL.jpg) no-repeat; padding-left: 30px">
+		<td class="headImgBlock" width="1000" height="233" colspan="3" style="background: url(<?php echo TPL_URL; ?>/images/flashL.jpg) no-repeat; padding-left: 30px">
 			<img src="<?php echo TPL_URL; ?>/images/auto2.jpg" alt=""/>
 			
 			<!--<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,65,0" width="970" height="233" id=flash align=middle>
@@ -123,7 +128,7 @@ define(TPL_URL, '/' . $this->baseurl . 'templates/' . $this->template);
 	</tr>
 	<tr valign="top">
 		<td style="background: url(<?php echo TPL_URL; ?>/images/bot2.jpg) no-repeat"><img src="<?php echo TPL_URL; ?>/images/spacer.gif" width="100%" height="1" style="background: url(<?php echo TPL_URL; ?>/images/hr.gif) repeat-x"><br><br><font color="#A2A1A1">Address: 7212 McNeil Dr.\Suite 205 Austin, TX 78729<br>Telephone: (512) 257-4700<br>(fax) (512) 257-4701<br>E-mail: <a href="mailto:">info@company.com</a></font><br><br></td>
-		<td style="background: url(<?php echo TPL_URL; ?>/images/bot1.jpg) no-repeat"><img src="<?php echo TPL_URL; ?>/images/spacer.gif" width="100%" height="1" style="background: url(<?php echo TPL_URL; ?>/images/hr.gif) repeat-x"><br><br><br><font color="#A2A1A1">2006 © Copyright CompanyName.<br>All rights reserved. Read <a href="#">Legal policy</a> and <a href="#">Privacy policy</a>.</font></td>
+		<td style="background: url(<?php echo TPL_URL; ?>/images/bot1.jpg) no-repeat"><img src="<?php echo TPL_URL; ?>/images/spacer.gif" width="100%" height="1" style="background: url(<?php echo TPL_URL; ?>/images/hr.gif) repeat-x"><br><br><br><font color="#A2A1A1">2006 Â© Copyright CompanyName.<br>All rights reserved. Read <a href="#">Legal policy</a> and <a href="#">Privacy policy</a>.</font></td>
 	</tr>
 	<tr><td><img src="<?php echo TPL_URL; ?>/images/spacer.gif" width="268" height="1"</td><td><img src="<?php echo TPL_URL; ?>/images/spacer.gif" width="454" height="1"</td><td><img src="<?php echo TPL_URL; ?>/images/spacer.gif" width="278" height="1"</td></tr>
 </table>

@@ -15,3 +15,8 @@ a:hover {color: white}
 .lnkWhite:link, .lnkWhite:visited {background: url(../images/arr1.gif) no-repeat left; padding-left: 13px; color: white}
 .lnkWhite:hover {color: #AAAAAA}
 #pageTxt {-moz-box-sizing: padding-box; padding: 10px 15px 0px 40px; text-align: left}
+
+.headImgBlock img {
+    height: 233px;
+    text-align: right;
+}
