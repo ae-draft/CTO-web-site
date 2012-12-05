@@ -12,6 +12,6 @@ a:hover {color: white}
 .lnkOrangeC:hover {color: #CF7900}
 .lnkOrangeD:link, .lnkOrangeC:visited {color: #FFA927}
 .lnkOrangeD:hover {color: #CF7900}
-.lnkWhite:link, .lnkWhite:visited {background: url(../images/arr1.gif) no-repeat left; padding-left: 13px; color: white}
+.lnkWhite:link, .lnkWhite:visited {background: url(../images/asdarr1.gif) no-repeat left; padding-left: 13px; color: white}
 .lnkWhite:hover {color: #AAAAAA}
 #pageTxt {-moz-box-sizing: padding-box; padding: 10px 15px 0px 40px; text-align: left}
