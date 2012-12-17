@@ -34,8 +34,8 @@ define(TPL_URL, '/' . $this->baseurl . 'templates/' . $this->template);
     </div>
 	<![endif]-->
     <!--[if lt IE 9]>
-   		<script type="text/javascript" src="js/html5.js"></script>
-        <link rel="stylesheet" href="css/ie.css" type="text/css" media="screen">
+   		<script type="text/javascript" src="<?php echo $this->baseurl.'/templates/'.$this->template; ?>/javascript/html5.js"></script>
+        <link rel="stylesheet" href="<?php echo $this->baseurl.'/templates/'.$this->template; ?>/css/ie.css" type="text/css" media="screen">
 	<![endif]-->
 	
 	<script type="text/javascript" charset="utf-8">
@@ -64,17 +64,7 @@ define(TPL_URL, '/' . $this->baseurl . 'templates/' . $this->template);
                         </div>
                     </div>
                     <nav>
-                        <ul class="menu">
-                            <jdoc:include type="modules" name="cto-position-0" />
-                            <!--
-                            <li><a class="active" href="index.html">Home</a></li>
-                            <li><a href="about.html">About Us</a></li>
-                            <li><a href="maintenance.html">Maintenance </a></li>
-                            <li><a href="repair.html">Repair</a></li>
-                            <li><a href="price.html">Price List</a></li>
-                            <li><a href="locations.html">Locations</a></li>
-                            -->
-                        </ul>
+                 	   <jdoc:include type="modules" name="cto-position-0" />
                     </nav>
                     <div class="slider-wrapper">
                         <div class="slider">
@@ -100,43 +90,11 @@ define(TPL_URL, '/' . $this->baseurl . 'templates/' . $this->template);
             <section id="content"><div class="ic">More Website Templates @ TemplateMonster.com - January 30, 2012!</div>
                 <div class="main">
                     <div class="container_12">
+                        
                         <!-- Промежуточный блок меню -->
                         <jdoc:include type="modules" name="cto-position-1" />
                         <!-- Промежуточный блок меню -->
-                        <!--
-                        <div class="wrapper p5">
-                            <article class="grid_4">
-                                <div class="wrapper">
-                                    <figure class="img-indent"><img src="<?php echo TPL_URL; ?>/images/page1-img1.png" alt=""></figure>
-                                    <div class="extra-wrap">
-                                        <h4>Engine Repair</h4>
-                                        <p class="p2">Lorem ipsum dolosit amet, consetetur sadipng elitr sed diam nonumy eirmod.</p>
-                                        <a class="button" href="#">Read More</a>
-                                    </div>
-                                </div>
-                            </article>
-                            <article class="grid_4">
-                                <div class="wrapper">
-                                    <figure class="img-indent"><img src="<?php echo TPL_URL; ?>/images/page1-img2.png" alt=""></figure>
-                                    <div class="extra-wrap">
-                                        <h4>Wheel Alignment</h4>
-                                        <p class="p2">Tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
-                                        <a class="button" href="#">Read More</a>
-                                    </div>
-                                </div>
-                            </article>
-                            <article class="grid_4">
-                                <div class="wrapper">
-                                    <figure class="img-indent"><img src="<?php echo TPL_URL; ?>/images/page1-img3.png" alt=""></figure>
-                                    <div class="extra-wrap">
-                                        <h4>Fluid Exchanges</h4>
-                                        <p class="p2">No sea takimata sanctus est gorem ipsum dolor sit amet forem ipsum.</p>
-                                        <a class="button" href="#">Read More</a>
-                                    </div>
-                                </div>
-                            </article>
-                        </div>
-                        -->
+                        
                         <div class="container-bot">
                             <div class="container-top">
                                 <div class="container">
