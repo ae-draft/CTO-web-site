@@ -92,7 +92,6 @@ class modRandomImageHelper
 	static function getFolder(&$params)
 	{
 		$folder	= $params->get('folder');
-
 		$LiveSite	= JURI::base();
 
 		// if folder includes livesite info, remove
@@ -104,7 +103,7 @@ class modRandomImageHelper
 			$folder= str_replace(JPATH_BASE, '', $folder);
 		}
 		$folder = str_replace('\\', DIRECTORY_SEPARATOR, $folder);
-		$folder = str_replace('/', DIRECTORY_SEPARATOR, $folder);
+		//$folder = str_replace('/', DIRECTORY_SEPARATOR, $folder);
 
 		return $folder;
 	}

@@ -69,15 +69,9 @@ define(TPL_URL, '/' . $this->baseurl . 'templates/' . $this->template);
                     <div class="slider-wrapper">
                         <div class="slider">
                             <ul class="items">
-                                <li>
-                                    <img src="<?php echo TPL_URL; ?>/images/slider-img1.jpg" alt="" />
-                                </li>
-                                <li>
-                                    <img src="<?php echo TPL_URL; ?>/images/slider-img2.jpg" alt="" />
-                                </li>
-                                <li>
-                                    <img src="<?php echo TPL_URL; ?>/images/slider-img3.jpg" alt="" />
-                                </li>
+		                        <!-- Блок слайдера -->
+		                        <jdoc:include type="modules" name="cto-position-2" />
+		                        <!-- Блок слайдера -->
                             </ul>
                         </div>
                         <a class="prev" href="#">prev</a>

@@ -96,6 +96,7 @@ abstract class JHtml
 		list($key, $prefix, $file, $func) = self::extract($key);
 		if (array_key_exists($key, self::$registry))
 		{
+			
 			$function = self::$registry[$key];
 			$args = func_get_args();
 			// Remove function name from arguments
